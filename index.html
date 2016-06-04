@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Gallery</title>
+        <link rel="stylesheet" type="text/css" href="css/gallery.css">
+        <link rel="stylesheet" type="text/css" href="css/balloon_2.css">
+        <link rel="stylesheet" type="text/css" href="css/balloon_1.css">
+        <link rel="stylesheet" type="text/css" href="css/loading.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="js/galleria-1.4.2.min.js"></script>
+         <script src="js/gallery.js"></script>
+        <script src="js/confetti.js"></script>
+        <script src="js/loading.js"></script>
+      
+        
+
+    </head>
+<body>
+<div id="confetti"></div>
+<div class="loader"><h1 id="loading" >POP THE BALLOONS IN THE GALLERY TO HAVE SOME FUN</h1></div>
+   <img src="img/mask.png" width="14%" height ="25%" style="position: absolute;"></img>
+     <img src="img/mask2.png" width="14%" height ="25%" style="position: absolute;margin-left: 86%"></img> 
+
+<div id="preloaded-images">
+   <img src="img/bg/bg1.jpg" width="1" height="1" alt="Image 01" />
+   <img src="img/bg/bg2.jpg" width="1" height="1" alt="Image 02" />
+   <img src="img/bg/bg3.jpg" width="1" height="1" alt="Image 03" />
+   <img src="img/bg/bg4.jpg" width="1" height="1" alt="Image 04" />
+   <img src="img/bg/bg5.jpg" width="1" height="1" alt="Image 05" />
+   <img src="img/bg/bg6.jpg" width="1" height="1" alt="Image 06" />
+   <img src="img/bg/bg7.jpg" width="1" height="1" alt="Image 07" />
+   <img src="img/bg/bg8.jpg" width="1" height="1" alt="Image 08" />
+
+</div>
+
+    <section class="intro" id="intro">
+    <section class="balloons-container" id="balloons-container" >
+        <div class="balloon yellow" ></div>
+        <div class="balloon blue"   ></div>
+        <div class="balloon purple" ></div>
+        <div class="balloon red"    ></div>
+        <div class="balloon cyan"   ></div>
+        <!-- infinite-->
+        <div class="balloon pink" id ="b_pink" ></div>
+        <div class="balloon orange" id="b_orange"></div>
+        <div class="balloon blue" id="b_blue"  ></div>
+        <div class="balloon yellow" id="b_yellow"></div>
+        <div class="balloon purple" id="b_purple"></div>
+        <div class="balloon green" id="b_green" ></div>             
+        <div class="balloon cyan"  id="b_cyan" ></div>
+        <div class="balloon red" id="b_red"></div>
+    </section>
+    </section>
+  
+
+        <!-- Adding gallery images. We use resized thumbnails here for better performance, but it’s not necessary -->
+
+        <div id="galleria">
+            <a href="img/gallery_img/1.jpg">
+                <img 
+                    src="img/gallery_thumb/1.jpg",
+                    data-title="Biandintz eta zaldiak"
+                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
+                >
+            </a>
+            <a href="img/gallery_img/2.jpg">
+                <img 
+                   src="img/gallery_thumb/2.jpg",
+                    data-title="Athabasca Rail"
+                    data-description="The Athabasca River railroad track at the mouth of Brulé Lake in Alberta, Canada."
+                >
+            </a>
+            <a href="img/gallery_img/3.jpg">
+                <img 
+                    src="img/gallery_thumb/3.jpg",
+                    data-title="Back-scattering crepuscular rays"
+                    data-description="Picture of the day on Wikimedia Commons 26 September 2010."
+                >
+            </a>
+            <a href="img/gallery_img/4.jpg">
+                <img 
+                    src="img/gallery_thumb/4.jpg",
+                    data-title="Interior convento"
+                    data-description="Interior view of Yuriria Convent, founded in 1550."
+                >
+            </a>
+            <a href="img/gallery_img/5.jpg">
+                <img 
+                   src="img/gallery_thumb/5.jpg",
+                    data-title="Oxbow Bend outlook"
+                    data-description="View over the Snake River to the Mount Moran with the Skillet Glacier."
+                >
+            </a>
+            <a href="img/gallery_img/6.jpg">
+                <img 
+                   src="img/gallery_thumb/6.jpg",
+                    data-title="Hazy blue hour"
+                    data-description="Hazy blue hour in Grand Canyon. View from the South Rim."
+                >
+            </a>
+            <a href="img/gallery_img/7.jpg">
+                <img 
+                  src="img/gallery_thumb/7.jpg",
+                    data-title="Haute Severaisse valley"
+                    data-description="View of Haute Severaisse valley and surrounding summits from the slopes of Les Vernets."
+                >
+            </a>
+            <a href="img/gallery_img/8.jpg">
+                <img 
+                   src="img/gallery_thumb/8.jpg",
+                    data-title="Bohinj lake"
+                    data-description="Bohinj lake (Triglav National Park, Slovenia) in the morning."
+                >
+            </a>
+            <a href="img/gallery_img/9.jpg">
+                <img 
+                   src="img/gallery_thumb/9.jpg",
+                    data-title="Bowling Balls"
+                    data-description="Mendocino county, California, USA."
+                >
+            </a>
+             <a href="img/gallery_img/10.jpg">
+                <img 
+                   src="img/gallery_thumb/10.jpg",
+                    data-title="Biandintz eta zaldiak"
+                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
+                >
+            </a>
+           <a href="img/gallery_img/1.jpg">
+                <img 
+                    src="img/gallery_thumb/1.jpg",
+                    data-title="Biandintz eta zaldiak"
+                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
+                >
+            </a>
+            <a href="img/gallery_img/2.jpg">
+                <img 
+                   src="img/gallery_thumb/2.jpg",
+                    data-title="Athabasca Rail"
+                    data-description="The Athabasca River railroad track at the mouth of Brulé Lake in Alberta, Canada."
+                >
+            </a>
+            <a href="img/gallery_img/3.jpg">
+                <img 
+                    src="img/gallery_thumb/3.jpg",
+                    data-title="Back-scattering crepuscular rays"
+                    data-description="Picture of the day on Wikimedia Commons 26 September 2010."
+                >
+            </a>
+            <a href="img/gallery_img/4.jpg">
+                <img 
+                    src="img/gallery_thumb/4.jpg",
+                    data-title="Interior convento"
+                    data-description="Interior view of Yuriria Convent, founded in 1550."
+                >
+            </a>
+            <a href="img/gallery_img/5.jpg">
+                <img 
+                   src="img/gallery_thumb/5.jpg",
+                    data-title="Oxbow Bend outlook"
+                    data-description="View over the Snake River to the Mount Moran with the Skillet Glacier."
+                >
+            </a>
+            <a href="img/gallery_img/6.jpg">
+                <img 
+                   src="img/gallery_thumb/6.jpg",
+                    data-title="Hazy blue hour"
+                    data-description="Hazy blue hour in Grand Canyon. View from the South Rim."
+                >
+            </a>
+            <a href="img/gallery_img/7.jpg">
+                <img 
+                  src="img/gallery_thumb/7.jpg",
+                    data-title="Haute Severaisse valley"
+                    data-description="View of Haute Severaisse valley and surrounding summits from the slopes of Les Vernets."
+                >
+            </a>
+            <a href="img/gallery_img/8.jpg">
+                <img 
+                   src="img/gallery_thumb/8.jpg",
+                    data-title="Bohinj lake"
+                    data-description="Bohinj lake (Triglav National Park, Slovenia) in the morning."
+                >
+            </a>
+            <a href="img/gallery_img/9.jpg">
+                <img 
+                   src="img/gallery_thumb/9.jpg",
+                    data-title="Bowling Balls"
+                    data-description="Mendocino county, California, USA."
+                >
+            </a>
+             <a href="img/gallery_img/10.jpg">
+                <img 
+                   src="img/gallery_thumb/10.jpg",
+                    data-title="Biandintz eta zaldiak"
+                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
+                >
+            </a>
+           <a href="img/gallery_img/1.jpg">
+                <img 
+                    src="img/gallery_thumb/1.jpg",
+                    data-title="Biandintz eta zaldiak"
+                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
+                >
+            </a>
+            <a href="img/gallery_img/2.jpg">
+                <img 
+                   src="img/gallery_thumb/2.jpg",
+                    data-title="Athabasca Rail"
+                    data-description="The Athabasca River railroad track at the mouth of Brulé Lake in Alberta, Canada."
+                >
+            </a>
+            <a href="img/gallery_img/3.jpg">
+                <img 
+                    src="img/gallery_thumb/3.jpg",
+                    data-title="Back-scattering crepuscular rays"
+                    data-description="Picture of the day on Wikimedia Commons 26 September 2010."
+                >
+            </a>
+            <a href="img/gallery_img/4.jpg">
+                <img 
+                    src="img/gallery_thumb/4.jpg",
+                    data-title="Interior convento"
+                    data-description="Interior view of Yuriria Convent, founded in 1550."
+                >
+            </a>
+            <a href="img/gallery_img/5.jpg">
+                <img 
+                   src="img/gallery_thumb/5.jpg",
+                    data-title="Oxbow Bend outlook"
+                    data-description="View over the Snake River to the Mount Moran with the Skillet Glacier."
+                >
+            </a>
+            <a href="img/gallery_img/6.jpg">
+                <img 
+                   src="img/gallery_thumb/6.jpg",
+                    data-title="Hazy blue hour"
+                    data-description="Hazy blue hour in Grand Canyon. View from the South Rim."
+                >
+            </a>
+            <a href="img/gallery_img/7.jpg">
+                <img 
+                  src="img/gallery_thumb/7.jpg",
+                    data-title="Haute Severaisse valley"
+                    data-description="View of Haute Severaisse valley and surrounding summits from the slopes of Les Vernets."
+                >
+            </a>
+            <a href="img/gallery_img/8.jpg">
+                <img 
+                   src="img/gallery_thumb/8.jpg",
+                    data-title="Bohinj lake"
+                    data-description="Bohinj lake (Triglav National Park, Slovenia) in the morning."
+                >
+            </a>
+            <a href="img/gallery_img/9.jpg">
+                <img 
+                   src="img/gallery_thumb/9.jpg",
+                    data-title="Bowling Balls"
+                    data-description="Mendocino county, California, USA."
+                >
+            </a>
+             <a href="img/gallery_img/10.jpg">
+                <img 
+                   src="img/gallery_thumb/10.jpg",
+                    data-title="Biandintz eta zaldiak"
+                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
+                >
+            </a>
+           
+
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('js/galleria.classic.min.js');
+
+    // Initialize Galleria
+    Galleria.run('#galleria');
+
+    </script>
+    </body>
+     <script src="js/balloon.js"></script>
+</html>

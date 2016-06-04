@@ -1,0 +1,23 @@
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('../img/loading.gif') 50% 50% no-repeat #CADDDB;
+}
+#loading {
+  color :#0165CE ;
+ margin-top: 36%;
+ margin-left: 0%;
+ font-size: 40px;
+}
+#preloaded-images {
+   position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}

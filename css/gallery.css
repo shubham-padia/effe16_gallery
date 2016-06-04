@@ -1,0 +1,23 @@
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#confetti{
+	background: transparent;
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 0;
+}
+.content{color:#777;font:12px/1.4 "helvetica neue",arial,sans-serif;width:620px;margin:20px auto;}
+h1{font-size:12px;font-weight:normal;color:#ddd;margin:0;}
+p{margin:0 0 20px}
+a {color:#22BCB9;text-decoration:none;}
+.cred{margin-top:20px;font-size:11px;}
+
+/* This rule is read by Galleria to define the gallery height: */
+#galleria{height:96vh ; width: 72vw;margin-top: 4vh;background-color: transparent; margin-left:14vw;}
