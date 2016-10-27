@@ -1,1 +1,1 @@
-[demo link](http://shubhamp.in/effe_gallery_v3/)
+[demo Link](http://shubhamp.in/effe_gallery_v3/)
