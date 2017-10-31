@@ -1,3 +1,3 @@
 # Effervescence 2016 Gallery
+> Nothing relevant here.
 
-[Demo Link](http://shubhamp.in/effe_gallery_v3/)
